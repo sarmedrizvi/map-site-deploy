@@ -1,0 +1,27 @@
+{
+  "name": "location4",
+  "version": "1.0.0",
+  "description": "My groovy Nuxt.js project",
+  "author": "sarmedrizvi",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start --hostname 185.247.119.182 --port 3331",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "bootstrap": "^4.4.1",
+    "bootstrap-vue": "^2.11.0",
+    "firebase": "^7.14.0",
+    "nuxt": "^2.0.0",
+    "vue": "^2.6.11",
+    "vue-loading-overlay": "^3.3.2",
+    "vue2-google-maps": "^0.10.7",
+    "vuebar": "0.0.20"
+  },
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.11.0"
+  }
+}
